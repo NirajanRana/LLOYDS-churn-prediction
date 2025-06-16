@@ -33,39 +33,55 @@ This project focuses on analyzing and predicting customer churn using structured
     ```python
     from sklearn.model_selection import train_test_split
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    
 
-###➤ Model Training: Random Forest Classifier
+
+### ➤ Model Training: Random Forest Classifier
     ```python
-from sklearn.ensemble import RandomForestClassifier
-rf = RandomForestClassifier(n_estimators=100, random_state=42)
-rf.fit(x_train, y_train)
+    
+      from sklearn.ensemble import RandomForestClassifier
+      rf = RandomForestClassifier(n_estimators=100, random_state=42)
+      rf.fit(x_train, y_train)
 
-###➤ Prediction and Accuracy
-from sklearn.metrics import accuracy_score
-y_pred = rf.predict(x_test)
-accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)
+### ➤ Prediction and Accuracy
+    ```python
+    
+    from sklearn.metrics import accuracy_score
+    y_pred = rf.predict(x_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    print("Accuracy:", accuracy)
 
-###✅ Model Accuracy: Approximately 94%
+
+### ✅ Model Accuracy: Approximately 94%
 
 (Based on code structure and expected Random Forest performance for structured churn data.)
 
-###🛠 Technologies Used
+### 🛠 Technologies Used
 *Python
+
 *pandas, numpy
+
 *matplotlib, seaborn
+
 *scikit-learn
+
 *Jupyter Notebook
 
-###🚀 How to Run
+### 🚀 How to Run
 1. Clone the repository:
-git clone https://github.com/your-username/lloyds-churn-prediction.git
-cd lloyds-churn-prediction
+   ```bash
+   
+   git clone https://github.com/your-username/lloyds-churn-prediction.git
+   cd lloyds-churn-prediction
 
 2. Install required packages:
-pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+   ```bash
+   
+   pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 3. Place the dataset file Customer_Churn_Data_Large.xlsx in the same directory.
 4. Launch Jupyter Notebook:
-5. jupyter notebook
-Open LLOYDS.ipynb and run the notebook.
+   ```bash
+   
+   jupyter notebook
+5. Open LLOYDS.ipynb and run the notebook.
