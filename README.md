@@ -6,6 +6,8 @@ This project focuses on analyzing and predicting customer churn using structured
 
 ## 📒 Notebook: `LLOYDS.ipynb`
 
+## 🗃️ Dataset Source : Forage Internship Data set by Llyods Banking Group
+
 ### 📌 Project Summary
 - Loaded customer demographic and behavioral data from an Excel file (`Customer_Churn_Data_Large.xlsx`) with multiple sheets.
 - Performed exploratory data analysis (EDA) to uncover patterns and trends.
